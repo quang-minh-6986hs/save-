@@ -664,8 +664,11 @@ a {
   display: flex;
   width: 28px;
   height: 28px;
-  margin-right: 10px;
-  border-radius: 5px;
+  border-radius: 3px;
+  background: #f9f9f9;
+}
+.footer .social-link + .social-link {
+  margin-left: 16px;
 }
 
 .footer .social-link:hover {
